@@ -1,0 +1,51 @@
+/*	____________________________________
+
+	[website name] - General styles
+	____________________________________
+	
+	Desc:		stylesheet
+	File:		_all-styles.css
+	Version:	1.0
+	Created:	March 11, 2011
+	Last Edit:	
+	Author:		Kate Payton 
+				@ www.pixelnourish.com
+
+	____________________________________	*/
+
+
+/* ---	MISCELLANEOUS	---	 */
+.mt05 { margin-top: 5px !important; }
+.mt10 { margin-top: 10px !important; }
+
+.mr05 { margin-right: 5px !important; }
+.mr10 { margin-right: 10px !important; }
+
+.left {	float: left; }
+.right { float: right; }
+
+
+/* --- 	BUTTONS & ICONS	--- */
+.ico { padding: 0 0 0 20px; }
+.mail { background: url(ico_mail.gif) no-repeat left 1px; }
+.pdf { background: url(ico_pdf.gif) no-repeat left 1px; }
+
+
+/* --- 	HEADER	--- */
+header {
+}
+
+
+/* ---	CONTENT	--- */
+#content {
+}
+
+
+/* --- 	SPECIFIC ITEMS - MISC EXTRA STYLES	--- */
+
+
+/* --- 	FOOTER STYLES	--- */
+footer {
+	color: #666;
+	font-size: 10px;
+}

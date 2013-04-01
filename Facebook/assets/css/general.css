@@ -1,0 +1,75 @@
+/*	____________________________________
+
+	[website name] - General styles
+	____________________________________
+	
+	Desc:		stylesheet
+	File:		_general.css
+	Version:	1.0
+	Created:	March 11, 2011
+	Last Edit:	
+	Author:		Kate Payton 
+				@ www.pixelnourish.com
+
+	____________________________________	*/
+
+a { color: #7193b2; text-decoration: none }
+a:hover { color: #4e7090;  }
+
+
+/* ---	HEADERS & TEXT IN GENERAL	---	 */
+html { font-size: 0.8125em /* RESET FONT SIZE TO 13PX */;	}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #2d5577;
+	font-weight: normal;
+	margin: 0 0 1.1em 0;
+	line-height: 1.3333em;
+}
+h1 { font-size: 48px; }
+h2 { font-size: 24px; text-shadow: 0px 1px 0px rgba(226, 232, 234, 0.9);	}
+h3 { font-size: 17px; }
+h4 { font-size: 16px; }
+h5 { font-size: 14px; }
+h6 { font-size: 13px; }
+
+p { line-height: 1.25em; margin: 0 0 0.95em 0;	}
+
+ul { list-style: disc; }
+ol { list-style: decimal; }
+
+/* ---	STRUCTURE	---	*/
+body {
+	background: #e7ebf2 url(../bg_facebook-app_header.gif) repeat-x 0 0;
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background: url(../bg_facebook-app_top.gif) no-repeat center 0;
+	height: 95px;
+}
+#content {
+	padding: 0 1px;
+}
+	#content .inner {
+		background: #fff;
+		border: 1px solid #c4cde0;
+		border-width: 0 1px;
+		margin-right: 128px;
+		min-height: 100px;
+		padding: 18px 20px 20px;
+	}
+
+footer .inner {
+	background: url(../bg_facebook-app_bottom.gif) no-repeat center 0;
+	margin-right: 128px;
+	padding: 20px;
+}
+	header .inner,
+	#content,
+	footer {
+		margin: 0 auto;
+		width: 980px;
+	}
+

@@ -1,0 +1,102 @@
+/*	____________________________________
+
+	File preview switcher - General styles
+	____________________________________
+	
+	Desc:		stylesheet
+	File:		_general.css
+	Version:	1.0
+	Created:	December 14th, 2012
+	Last Edit:	December 14th, 2012
+	Author:		Kate Payton 
+				@ www.pixelnourish.com
+
+	____________________________________	*/
+
+
+/* ---	STICKY FOOTER	---	 */
+* { margin: 0; padding: 0; } 
+html, body { height: 100%; }
+#wrap { height:auto !important; min-height: 100%; width: 100%; }
+#wrap_inner { padding-bottom: 50px; } /* must be same height as the footer */
+* html #wrap { height: 100%; }
+footer { height: 50px; position: relative; margin-top: -50px; /* negative value of footer height */ } 
+/*Opera Fix*/ body:before { content:""; height:100%; float:left; width:0; margin-top:-32767px; }
+
+a { color: #fff; text-decoration: none }
+a:hover { color: #fff; text-decoration: underline;  }
+
+
+/* ---	HEADERS & TEXT IN GENERAL	---	 */
+html { font-size: 0.875em /* RESET FONT SIZE TO 14PX */;	}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #eee;
+	font-weight: normal;
+	margin: 0 0 1em 0;
+	line-height: 1.3333em;
+	text-shadow: 0px 1px 0px rgba(17,17,17,0.8);
+}
+h1 { font-size: 2.143em /* 30px */; }
+h2 {
+	font-size: 1.714em /* 24px */;
+	margin-bottom: 15px;
+}
+h3 { font-size: 1.571em /* 22px */; }
+h4 { font-size: 1.429em /* 20px */; }
+h5 { font-size: 1.286em /* 18px */; }
+h6 { font-size: 1.143em /* 16px */; }
+
+p { line-height: 1.25em; margin: 0 0 0.95em 0;	}
+
+ul { list-style: disc; }
+ol { list-style: decimal; }
+
+/* ---	STRUCTURE	---	*/
+body {
+	background: #949b86 url(../images/bg_wood.jpg) repeat 0 0 fixed;
+	color: #4a4c47;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#wrap_inner {
+	padding-top: 20px;
+}
+header {
+	background: #333;
+	border: 1px solid #111;
+	border-width: 1px 0;
+	 -webkit-box-shadow: 0 0 5px rgba(17,17,17,0.3);
+	 -moz-box-shadow: 0 0 5px rgba(17,17,17,0.3);
+	box-shadow: 0 0 5px rgba(17,17,17,0.3);
+	color: #eee;
+	margin: 0 0 40px;
+	padding: 0;
+	text-shadow: 0px 1px 0px rgba(17,17,17,0.8);
+}
+#content {
+}
+footer {
+	color: #4a4c47;
+	font-size: 12px; /* fixed size so it doesn't adjust on screen size */
+}
+
+@media (max-width: 979px) {
+	body {
+		font-size: 0.75em /* 12px */;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	header,
+	#content,
+	footer {
+		padding-left: 20px;
+		padding-right: 20px;
+		}
+	p { font-size: 1.16667em /* 14px */; }
+}
+@media (max-width: 767px) {
+	body {
+		font-size: 1em /* 14px */;
+	}
+}
+

@@ -1,0 +1,88 @@
+/*	____________________________________
+
+	File preview switcher - General styles
+	____________________________________
+	
+	Desc:		stylesheet
+	File:		_all-styles.css
+	Version:	1.0
+	Created:	December 14th, 2012
+	Last Edit:	December 14th, 2012
+	Author:		Kate Payton 
+				@ www.pixelnourish.com
+
+	____________________________________	*/
+
+
+/* ---	MISCELLANEOUS	---	 */
+
+/* --- 	BUTTONS & ICONS	--- */
+.btn-primary {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #6f5e74;
+	*background-color: #7a6980;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#96869b), to(#7a6980));
+	background-image: -webkit-linear-gradient(top, #96869b, #7a6980);
+	background-image: -o-linear-gradient(top, #96869b, #7a6980);
+	background-image: linear-gradient(to bottom, #96869b, #7a6980);
+	background-image: -moz-linear-gradient(top, #96869b, #7a6980);
+	background-repeat: repeat-x;
+	border-color: #7a6980 #7a6980 #6f5e74;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff96869b', endColorstr='#ff7a6980', GradientType=0);
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+	text-shadow: 0 1px 0 rgba(17,17,17,0.75);
+}
+	.btn-primary:hover,
+	.btn-primary:active,
+	.btn-primary.active,
+	.btn-primary.disabled,
+	.btn-primary[disabled] {
+		color: #ffffff;
+		background-color: #7a6980;
+		*background-color: #003bb3;
+	}
+	.btn-primary:active,
+	.btn-primary.active {
+		background-color: #003399 \9;
+	}
+
+/* --- 	HEADER	--- */
+header a {
+	font-weight: bold;
+}
+header .padd {
+	padding: 50px 0 30px;
+}
+
+
+/* ---	CONTENT	--- */
+#content a:hover h2 {
+	text-decoration: none;
+}
+#content .preview {
+	margin: 2px 0 28px;
+}
+	#content a:hover .preview {
+		 -webkit-box-shadow: 0 2px 5px rgba(17,17,17,0.3);
+		 -moz-box-shadow: 0 2px 5px rgba(17,17,17,0.3);
+		box-shadow: 0 2px 5px rgba(17,17,17,0.3);
+		margin: 0 0 30px;
+  -webkit-transition: all 0.2s ease-in-out;
+     -moz-transition: all 0.2s ease-in-out;
+       -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+	}
+
+
+/* --- 	SPECIFIC ITEMS - MISC EXTRA STYLES	--- */
+
+
+/* --- 	FOOTER STYLES	--- */
+footer a {
+	color: #4a4c47;
+}
+	footer a:hover {
+		color: #4a4c47;
+	}
